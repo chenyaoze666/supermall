@@ -1,14 +1,14 @@
 module.exports = {
-  configurewebpack: {
+  configureWebpack: {
     resolve: {
-      //配置后缀省略
-      // extensions:[],
-      // 配置别名
       alias: {
-        'assets': '@/assets',
-        'common': '@/common',
-        'components': '@/components',
-        'network': '@/network',
+          //配置别名
+          'assets': '@/assets',
+          'common': '@/common',
+          'components': '@/components',
+          'network': '@/network',
+          'views': '@/views',
+          'pluginunit':'@/pluginunit'
       }
     }
   }
