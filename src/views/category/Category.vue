@@ -123,10 +123,19 @@
 
       // });
     },
-    mounted(){
+    mounted(){//组件挂载完后
       this.scroll = new BScroll('.wrapper',{
-
+        probeType:3,
+        pullUpLoad:true,
       });
+
+      this.scroll.on('scroll',(position) => {
+        // console.log(position)
+      })
+
+      this.scroll.on('pullingUp',() => {
+        console.log("上拉加载更多")
+      })
     }
   }
 </script>

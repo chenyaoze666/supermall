@@ -4,12 +4,29 @@
   </div>
 </template>
 
+
 <script>
   export default {
-    name:"Profile"
+    name:"Profile",
+    components:{
+    },
+    data(){
+      return {
+       
+      }
+    },
+    computed:{
+     
+    },
+    methods:{
+  
+    },
+    filters:{
+       
+    }
   }
 </script>
 
 <style scoped>
-
+ 
 </style>
